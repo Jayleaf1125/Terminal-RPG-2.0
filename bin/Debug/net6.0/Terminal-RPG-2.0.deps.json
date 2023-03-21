@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Terminal-RPG-2.0/1.0.0": {
+        "runtime": {
+          "Terminal-RPG-2.0.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Terminal-RPG-2.0/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

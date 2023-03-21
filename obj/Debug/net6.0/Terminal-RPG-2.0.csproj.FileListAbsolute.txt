@@ -1,0 +1,15 @@
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\bin\Debug\net6.0\Terminal-RPG-2.0.exe
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\bin\Debug\net6.0\Terminal-RPG-2.0.deps.json
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\bin\Debug\net6.0\Terminal-RPG-2.0.runtimeconfig.json
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\bin\Debug\net6.0\Terminal-RPG-2.0.dll
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\bin\Debug\net6.0\Terminal-RPG-2.0.pdb
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.csproj.AssemblyReference.cache
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.AssemblyInfoInputs.cache
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.AssemblyInfo.cs
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.csproj.CoreCompileInputs.cache
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.dll
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\refint\Terminal-RPG-2.0.dll
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.pdb
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\Terminal-RPG-2.0.genruntimeconfig.cache
+C:\Users\Jason\Desktop\Terminal RPG 2.0\Terminal-RPG-2.0\obj\Debug\net6.0\ref\Terminal-RPG-2.0.dll
