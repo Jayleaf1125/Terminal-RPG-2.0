@@ -1,0 +1,7 @@
+namespace WorldSys
+{
+    class Gameplay
+    {
+        
+    }
+}
