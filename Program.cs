@@ -21,7 +21,7 @@ namespace HelloWorld
                     case "gain":
                         pla.expBar.gainExpericePoints();
                         break;
-                    case "check": 
+                    case "stats":
                         Console.WriteLine(pla.name);
                         // Health Bar Sys.
                         Console.WriteLine(
