@@ -1,6 +1,6 @@
 using GameSystems;
 
-namespace PlayerSys 
+namespace PlayerSys
 {
     class Player
     {
@@ -11,8 +11,12 @@ namespace PlayerSys
 
         public Player()
         {
+            // User inputting their name
             Console.Write("What is your name: ");
-            this.name = Console.ReadLine();
+            string userNameInput = Console.ReadLine();
+            this.name = userNameInput.Length == 0 ? "Unknown" : userNameInput;
+
+
             this.expBar = new ExpSys(healthBar, manaBar);
         }
     }

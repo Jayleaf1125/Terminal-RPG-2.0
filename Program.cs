@@ -21,7 +21,7 @@ namespace HelloWorld
                     case "gain":
                         pla.expBar.gainExpericePoints();
                         break;
-                    case "check":
+                    case "check": 
                         Console.WriteLine(pla.name);
                         // Health Bar Sys.
                         Console.WriteLine(
@@ -34,7 +34,6 @@ namespace HelloWorld
                         break;
                         case "end":
                             return;
-                            break;
                 }
             }
 
