@@ -19,7 +19,7 @@ namespace GameSystems
         public void gainExpericePoints()
         {
             // Modify this function to get experince points based on the enemies you fought and their level
-            int expGained = new Random().Next(5, 100);
+            int expGained = new Random().Next(5, 25);
 
             Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("You have gained {0} experience points", expGained);
@@ -65,6 +65,13 @@ namespace GameSystems
             Console.WriteLine("Defense increased by {0}", defenseRandomIncrease);
             Console.WriteLine("Mana increased by {0}", maxManaRandomIncrease);
             Console.WriteLine("Resistance increased by {0}", resistancRandomIncrease);
+            Console.ForegroundColor = ConsoleColor.White;
+        }
+
+        public void viewExpBar()
+        {
+            Console.ForegroundColor = ConsoleColor.DarkMagenta;
+            Console.WriteLine("{0} / {1}", currentExpAmount, maxExp);
             Console.ForegroundColor = ConsoleColor.White;
         }
     }

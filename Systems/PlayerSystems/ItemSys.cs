@@ -13,23 +13,23 @@ namespace GameSystems
             switch (itemName)
             {
                 case "potion":
-                this.itemName = "potion";
-                this.value = 25;
-                this.itemType = "Healing";
-                this.description = "Regenerates 25 health";
-                break;
+                    this.itemName = "potion";
+                    this.value = 25;
+                    this.itemType = "Healing";
+                    this.description = "Regenerates 25 health";
+                    break;
                 case "goldBag":
-                this.itemName = "goldBag";
-                this.value = new Random().Next(5, 25);
-                this.itemType = "Money";
-                this.description = "Large sum of money";
-                break;
+                    this.itemName = "goldBag";
+                    this.value = new Random().Next(5, 25);
+                    this.itemType = "Money";
+                    this.description = "Large sum of money";
+                    break;
                 case "coffee":
-                this.itemName = "coffee";
-                this.value = 2;
-                this.itemType = "Buff";
-                this.description = "Increase your speed by 2";
-                break;
+                    this.itemName = "coffee";
+                    this.value = 2;
+                    this.itemType = "Buff";
+                    this.description = "Increase your speed by 2";
+                    break;
             }
         }
     }
