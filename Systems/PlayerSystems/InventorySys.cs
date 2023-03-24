@@ -21,7 +21,7 @@ namespace GameSystems
             backpackSize++;
         }
 
-        public void Use(string item)
+        public string Use(string item)
         {
             switch (item)
             {
@@ -36,7 +36,7 @@ namespace GameSystems
                             if (player.healthBar.health == player.healthBar.maxHealth)
                             {
                                 Console.WriteLine("Current health is full");
-                                return;
+                                return "Successful";
                             }
                             else if (
                                 (player.healthBar.health + storage[i].value)
@@ -47,20 +47,21 @@ namespace GameSystems
                                 storage.RemoveAt(i);
                                 backpackSize--;
                                 Console.WriteLine("{0}'s health is now maxed", player.name);
-                                return;
+                                return "Successful";
                             }
                             else
                             {
                                 player.healthBar.health += storage[i].value;
                                 Console.WriteLine("{0} healed by 25 points", player.name);
                                 Drop(i);
-                                return;
+                                return "Successful";
                             }
                         }
                     }
                     Console.WriteLine("You do not have a potion");
                     break;
             }
+            return "Unsuccessful";
         }
 
         public void Drop(int i)
@@ -89,6 +90,8 @@ namespace GameSystems
                 Console.WriteLine("{0}) {1}", i + 1, storage[i].itemName);
             }
         }
+
+        public bool isEmpty() => backpackSize == 0;
 
         // public void Sell()
     }
