@@ -9,7 +9,7 @@ namespace HelloWorld
         {
             Console.Clear();
 
-            new Main_Gameplay().MainGameplay();
+            new Main_Gameplay().Main();
 
             // Add a constructor to the health & mana bar to generate for enemies default values
         }
