@@ -8,6 +8,7 @@ namespace PlayerSys
         public HealthSys healthBar = new HealthSys();
         public ManaSys manaBar = new ManaSys();
         public ExpSys expBar;
+        public InventorySys backpack;
 
         public Player()
         {
@@ -18,6 +19,7 @@ namespace PlayerSys
 
 
             this.expBar = new ExpSys(healthBar, manaBar);
+            this.backpack = new InventorySys(this);
         }
     }
 }
